@@ -1,0 +1,21 @@
+{
+  "name": "portafolio-js",
+  "version": "0.0.1",
+  "description": "Portafolio que muestra mis proyectos hechos en el Bootcamp de Laboratoria",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "portafolio, javascript, js, proyectos"
+  },
+  "keywords": [
+    "portafolio",
+    "javascript",
+    "js",
+    "proyectos"
+  ],
+  "author": "Bárbara Cáceres Sepúlveda",
+  "license": "ISC"
+}
