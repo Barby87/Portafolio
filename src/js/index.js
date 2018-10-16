@@ -8,8 +8,8 @@ window.onload = () => {
 }
 
 // Efecto escritura
-var i = 0;
-var text = "Front-End Developer";
+let i = 0;
+let text = "Front-End Developer...";
 
 function typing() {
   if(i<text.length) {
@@ -22,13 +22,23 @@ function typing() {
 typing();
 
 
-// Menú lateral
 $(document).ready(function () {
-  $('.sidenav').sidenav();
+  //Navbar
+  $(window).scroll(function(){
+    if($(window). scrollTop()>300){
+      $('nav').addClass('red');
+    }else{
+      $('nav').removeClass('red');
+    }
+  })
+  // Floating Action Button
+  $('.fixed-action-btn').floatingActionButton();
+  
+  //Tooltip button
+  $('.tooltipped').tooltip();
+
+
 });
 
-// Floating Action Button
-$(document).ready(function(){
-  $('.fixed-action-btn').floatingActionButton();
-});
+
       
