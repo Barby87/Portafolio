@@ -1,76 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> 
-    <!--Link materialize.css-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <!--Link CSS Local-->
-    <link rel="stylesheet" href="src/css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bárbara Cáceres S.</title>
+  <!--Font awesome-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+    crossorigin="anonymous">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Link materialize.css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!--Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+  <!--Link CSS Local-->
+  <link rel="stylesheet" href="src/css/style.css">
 </head>
+
 <body>
+  <section id="preload">
+    <div class="row">
 
-  <ul id="slide-out" class="sidenav">
-    <li><div class="user-view">
-      <div class="background">
-        <img src="images/office.jpg">
+      <div class="col s4">
       </div>
-      <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
-      <a href="#name"><span class="white-text name">Bárbara Cáceres Sepúlveda</span></a>
-      <a href="#email"><span class="white-text email">bcaceres.sepulveda@hotmail.com</span></a>
-    </div></li>
-    <li><a class="waves-effect" href="#!"><i class="material-icons">spa</i>Sobre mí...</a></li>
-    <li><div class="divider"></div></li>
-    <li><a class="waves-effect" href="#!"><i class="material-icons">palette</i>Habilidades</a></li>
-    <li><div class="divider"></div></li>
-    <li><a class="waves-effect" href="#!"><i class="material-icons">trending_up
-        </i>Mis proyectos</a></li>
-    <li><div class="divider"></div></li>
-    <li><a class="waves-effect" href="#!"><i class="material-icons">phone_iphone</i>Contáctame</a></li>
-    <li><div class="divider"></div></li>
-  </ul>
-  
-  <a href="#" data-target="slide-out" class="sidenav-trigger btn-large " id="btn-menu"><i class="material-icons">menu</i></a>
 
-  <section id="aboutMe">
-    <h1>Sobre mí</h1>
-    <p>Me formé en una universidad tradicional en el área de la Agronomía, lo cual me permitió desempeñarme en distintos rubros, especialmente en la enología, adquiriendo experiencia en 
-      trabajo en equipo, cumplimiento de metas, además de liderar equipos de trabajo. Actualmente estoy terminando un Bootcamp de programación web, front-end, en el que he aprendido a desarrollar páginas y aplicaciones web con el lenguaje Javascript y a utilizar otras herramientas como HTML, CSS, Bootstrap, Github, Node JS y Angular JS .
-        
-       Me caracterizo por ser una persona perseverante, proactiva, empática y solidaria, me gusta estar constantemente adquiriendo nuevos conocimientos y me encanta asumir nuevos desafíos.</p>
-  </section>
+      <div class="col s4" style="margin-top: 150px;">
 
-  <section id="skills">
-    <h1>Habilidades</h1>
-    <h6>Javascript</h6>
-    <h6>HTML5</h6>
-    <h6>CSS</h6>
-    <h6>Bootstrap</h6>
-    <h6>Materialize</h6>
-    <h6>Node JS</h6>
-    <h6>Firebase</h6>
-    <h6>Figma</h6>
-    <h6>Angular</h6>
+        <h2 id="namePreload" class="teal-text text-accent-1 center-align">Bárbara
+          Cáceres Sepúlveda</h2>
+        <div id="text" class="white-text center-align">
+        </div>
+        <div class="loader">
+          Loading...
+        </div>
+      </div>
+
+      <div class="col s4">
+      </div>
+
+    </div>
 
   </section>
-  
-  <section id="myProjects">
+
+
+  <section id="page">
+    <section id="menu">
+      <!--Sidenav-->
+      <ul id="slide-out" class="sidenav green lighten-1">
+        <li>
+          <div class="user-view">
+            <div class="background responsive-img">
+            </div>
+            <a href="#user"><img class="circle" src="src/assets/img-perfil(1).jpg"></a>
+          </div>
+        </li>
+        <li><a class="waves-effect" href="#aboutMe"><i class="material-icons">spa</i>Sobre mí...</a></li>
+        <li>
+          <div class="divider"></div>
+        </li>
+        <li><a class="waves-effect" href="#skills"><i class="material-icons">palette</i>Habilidades</a></li>
+        <li>
+          <div class="divider"></div>
+        </li>
+        <li><a class="waves-effect" href="#myProjects"><i class="material-icons">trending_up
+            </i>Mis proyectos</a></li>
+        <li>
+          <div class="divider"></div>
+        </li>
+        <li><a class="waves-effect" href="#contactMe"><i class="material-icons">phone_iphone</i>Contáctame</a></li>
+        <li>
+          <div class="divider"></div>
+        </li>
+      </ul>
+
+      <a href="#" data-target="slide-out" class="fixed sidenav-trigger btn-large" id="btn-menu"><i class="material-icons">menu</i></a>
+
+      <!--Floating Action Button-->
+      <div class="fixed-action-btn">
+        <a class="btn-floating btn-large cyan pulse">
+          push!
+        </a>
+        <ul>
+          <li><a href="https://github.com/Barby87/Portafolio-JS" class="btn-floating red"><i class="material-icons">code</i></a></li>
+          <li><a class="btn-floating green"><i class="material-icons">phone_iphone</i></a></li>
+          <li><a href="https://github.com/Barby87" class="btn-floating black"><i class="fab fa-github"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/b%C3%A1rbara-c%C3%A1ceres-sep%C3%BAlveda-4b853a101/" class="btn-floating blue"><i
+                class="fab fa-linkedin-in"></i></a></li>
+          <li><a href="src/assets/cv-barbara_caceres.pdf" class="btn-floating yellow darken-1"><i class="material-icons">attach_file</i></a></li>
+        </ul>
+      </div>
+    </section>
+
+
+    <section id="aboutMe" style="text-align: justify;">
+      <div class="row container">
+
+        <div class="col s6">
+          <h1>Sobre mí</h1>
+          <blockquote class="white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex tempore quam
+            cumque velit accusantium
+            nam
+            architecto voluptatibus adipisci similique ut corrupti non inventore quod ullam, neque et distinctio ipsam
+            dolore.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur labore eius modi, ratione obcaecati eos
+            eaque
+
+          </blockquote>
+        </div>
+
+        <div class="col s6">
+          <img class="responsive-img circle" src="src/assets/img-perfil(1).jpg">
+        </div>
+
+      </div>
+    </section>
+
+    <section id="skills">
+
+      <div class="row container">
+        <h1>Mis habilidades</h1>
+
+        <div class="col s4">
+          <h6>Javascript</h6>
+          <i class="fab fa-js" style="size:7px;"></i>
+          <h6>HTML5</h6>
+          <i class="fab fa-html5"></i>
+          <h6>CSS3</h6>
+          <i class="fab fa-css3-alt"></i>
+        </div>
+
+        <div class="col s4">
+          <h6>Bootstrap</h6>
+          <h6>Materialize</h6>
+          <h6>Node JS</h6>
+          <i class="fab fa-css3-alt"></i>
+        </div>
+
+        <div class="col s4">
+          <h6>Firebase</h6>
+          <h6>Figma</h6>
+          <h6>Angular</h6>
+          <i class="fab fa-angular"></i>
+        </div>
+      </div>
+    </section>
+
+    <section id="myProjects">
+      <div class="row">
+        <div class="col s4">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="images/office.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Proyecto 1<i class="material-icons right">more_vert</i></span>
+              <p><a href="#">This is a link</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Proyecto 1<i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col s4">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="images/office.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Proyecto 2<i class="material-icons right">more_vert</i></span>
+              <p><a href="#">This is a link</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">CProyecto 2<i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s4">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="images/office.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Proyecto 3<i class="material-icons right">more_vert</i></span>
+              <p><a href="#">This is a link</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Proyecto 3<i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contactMe">
+    </section>
   </section>
 
-  <section id="contactMe">   
-  </section>
-  
-    <!--Link JQuery-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <!--Link JS Materialize-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <!--Link JS Local-->
-    <script src= "src/js/index.js"></script>
+  <!--Link JQuery-->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <!--Link JS Materialize-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+  <!--Link JS Local-->
+  <script src="src/js/index.js"></script>
 </body>
+
 </html>

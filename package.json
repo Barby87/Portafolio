@@ -17,5 +17,8 @@
     "proyectos"
   ],
   "author": "Bárbara Cáceres Sepúlveda",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^3.7.0"
+  }
 }
