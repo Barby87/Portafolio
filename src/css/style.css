@@ -174,7 +174,7 @@ h2 {
 }
 
 #skills {
-  margin-bottom: 15%;
+  margin-bottom: 20%;
 }
 
 #aboutMe {
@@ -185,9 +185,10 @@ h2 {
   font-size: 20px;
 }
 
+
 #profileImage {
-  margin: 5%;
-  margin-top: 10%;
+    margin: 5%;
+    margin-top: 10%;
 }
 
 #title1, #title2, #title3 {
@@ -223,3 +224,5 @@ h5 {
   height: auto;
   margin-bottom: 20px;
 }
+
+
