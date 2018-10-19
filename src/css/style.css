@@ -1,26 +1,24 @@
+/* Página de inicio*/
 #preload {
     display: block;
     width: 100%;
-    height: 100vh;
-    background-image: url("../assets/branches-cloudy.jpg");
+    height: 100%;
+    background-image: url("../assets/abstract-acrylic-art-1083617.jpg");
     background-size: cover;
     position: relative;
 }
 
 #namePreload {
-    font-family: 'Kaushan Script', cursive;
-    text-shadow: 2px 2px 2px white;
-}
-
-.brand-logo{
-  font-family: 'Kaushan Script', cursive;
-  text-shadow: 2px 2px 2px black;
+    font-family: 'Mali', cursive;
+    text-shadow: 2px 2px 2px black;
 }
 
 #text {
     font-size: 30px;
-    font-weight: 500;
-    text-shadow: 2px 2px 2px white;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    margin-top: 10%;
+
 }
 
 /*Loading...*/
@@ -36,7 +34,8 @@
   animation: load7 1.8s infinite ease-in-out;
 }
 .loader {
-  color: #ffffff;
+  color: #20dce5 ;
+  text-shadow: 2px 2px 2px black;
   font-size: 10px;
   margin: 80px auto;
   position: relative;
@@ -82,50 +81,163 @@
   }
 }
 
+/* Mi perfil*/
 #page {
     display: none;
-    width: 100%;
-    height: 100%;
-    background-image: url("../assets/atmosphere-background.jpg");
-    background-size: cover;
-    position: relative;
-} 
-  
+    width: 100wh;
+  	height: 100%;
+	  color: black;
+	  background: linear-gradient(-80deg, rgb(103, 207, 238),rgb(226, 226, 188), rgb(170, 144, 243));
+	  background-size: 400% 400%;
+	  -webkit-animation: Gradient 15s ease infinite;
+	  -moz-animation: Gradient 15s ease infinite;
+	  animation: Gradient 15s ease infinite;
+  }
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+
+/* Navbar*/
 nav { 
   background: rgba(0, 0, 0, 0.2);
-  padding: 0px 20px;
-  margin-top: 0px;
   z-index: 10;
 }
 
 nav li a:hover {
-  background: #dd2c00; 
+  background: #20dce5; 
 }
 
-.background {
-    height: 200px;
+nav li i:hover {
+  color: #4a148c; 
 }
 
-.name {
-    font-family: 'VT323', monospace;
-    font-size: 50px;
+.brand-logo{
+  margin-left: 2%;
+  font-family: 'Mali', cursive;
+  text-shadow: 2px 2px 2px black;
+  
 }
 
-#name {
-    font-family: 'VT323', monospace;
-    font-size: 50px;
+/* Títulos*/
+h2 {
+  font-family: 'Mali', cursive;
+  font-weight: bold;
 }
 
-#aboutMe, #skills, #myProjects {
-    margin-bottom: 100px;
+
+/* Floating Action Button*/
+#icon-code, #icon-phone, #icon-github, #icon-linked-in, #icon-file {
+  color: #4a148c; 
+}
+
+.btn-floating {
+  background-color: #20dce5;
+}
+
+
+/* Secciones*/
+#aboutMe, #skills {
+  margin-bottom: 80px;
+}
+
+#myProjects {
+  margin-bottom: 120;
 }
 
 #aboutMe {
-  margin-top: 100px;
+  margin-top: 10%;
 }
 
-.fab {
-  font-size: 70px;
+blockquote {
+  border-left: 5px solid purple; 
+  font-size: 20px;
 }
 
-   
+#profileImage {
+  margin: 5%;
+  margin-top: 10%;
+}
+
+#title1, #title2, #title3 {
+  padding: 5%;
+}
+
+.animated {
+  animation-duration: 3s;
+}
+
+
+/* Skills*/
+
+h5 {
+  font-weight: bold;
+}
+
+.fa-github {
+  font-size: 90px;
+  color: black;
+}
+
+.skills_icon {
+  width: 7em;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+#iconoJavascript {
+  width: 6em;
+  height: auto;
+  margin-bottom: 20px;
+}
+/*Pantalla mediana a grande*
+@media screen and (min-width: 780px) and (max-width: 1024px) {
+  blockquote {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 780px) {
+  blockquote {
+    font-size: 20px;
+  }
+}
+
+@media sreen and (max-width: 480px) {
+  blockquote {
+    font-size: 10px;
+  }
+}*/
