@@ -34,7 +34,7 @@
   animation: load7 1.8s infinite ease-in-out;
 }
 .loader {
-  color: #20dce5 ;
+  color: #48dce4 ;
   text-shadow: 2px 2px 2px black;
   font-size: 10px;
   margin: 80px auto;
@@ -170,16 +170,16 @@ h2 {
 
 
 /* Secciones*/
-#aboutMe, #skills {
-  margin-bottom: 80px;
+#aboutMe, #myProjects {
+  margin-bottom: 5%;
 }
 
-#myProjects {
-  margin-bottom: 120;
+#skills {
+  margin-bottom: 10%;
 }
 
 #aboutMe {
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 blockquote {

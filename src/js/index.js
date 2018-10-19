@@ -44,8 +44,6 @@ $(document).ready(function () {
     scrollPollInterval: 20
   }
   $('.aniview').AniView(options);
-
-
 });
 
 
