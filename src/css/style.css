@@ -208,10 +208,16 @@ h5 {
   font-weight: bold;
 }
 
+#git_icon {
+  width: 10em;
+  height: auto;
+}
+
 .fa-github {
   font-size: 90px;
   color: black;
 }
+
 
 .skills_icon {
   width: 7em;
