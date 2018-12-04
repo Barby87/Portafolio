@@ -185,7 +185,6 @@ h2 {
   font-size: 20px;
 }
 
-
 #profileImage {
     margin: 5%;
     margin-top: 10%;
@@ -208,16 +207,11 @@ h5 {
   font-weight: bold;
 }
 
-#git_icon {
-  width: 10em;
+#visual_icon, #iconoJavascript {
+  width: 5em;
   height: auto;
+  margin-bottom: 20px;
 }
-
-.fa-github {
-  font-size: 90px;
-  color: black;
-}
-
 
 .skills_icon {
   width: 7em;
@@ -225,10 +219,19 @@ h5 {
   margin-bottom: 20px;
 }
 
-#iconoJavascript {
-  width: 6em;
+#git_icon {
+  width: 11em;
   height: auto;
   margin-bottom: 20px;
 }
+
+#nodeJs_icon, #github_icon {
+  width: 6em;
+  height: auto;
+}
+
+
+
+
 
 
